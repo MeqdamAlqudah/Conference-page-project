@@ -1,6 +1,8 @@
 /* ------Chage the location to fix linter-------- */
-.menu ul li {
-  margin-top: 30px;
+.featuredSpeakers .speakers li {
+  display: flex;
+  margin-top: 20px;
+  margin-top: 7px;
 }
 
 .program li img {
@@ -8,14 +10,17 @@
   margin-left: 5px;
 }
 
-.featuredSpeakers .speakers li {
-  display: flex;
-  margin-top: 20px;
-  margin-top: 7px;
+.menu.mobile ul li {
+  margin-top: 5rem;
 }
 
-.menu ul li:hover,
-.menu ul li:active {
+.menu.mobile ul li:hover,
+.menu.mobile ul li:active {
+  color: #ec5242;
+}
+
+.menu.Desktop ul li:hover,
+.menu.Desktop ul li:active {
   color: #ec5242;
 }
 
@@ -60,6 +65,7 @@ body .Desktop {
   list-style: none;
   margin-top: 0;
   display: flex;
+  margin-bottom: 0;
 }
 
 /* <<<<---- Sizing the menu */
@@ -71,20 +77,33 @@ body .Desktop {
   margin-left: -29px;
 }
 
-.menu {
+.menu.mobile {
   background-color: white;
-  width: 80%;
-  height: 50vmax;
-  position: relative;
+  width: 100%;
+  height: 110%;
+  position: absolute;
   top: -1rem;
   display: flex;
   flex-direction: column;
-  left: 1rem;
+  left: 0;
+  align-items: center;
+  justify-content: center;
 }
 
-.menu ul {
+.menu.mobile ul {
   list-style: none;
   font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu.Desktop ul {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .buyTicket {
@@ -234,7 +253,7 @@ h2::after {
   font-size: 15px;
 }
 
-.home-page .mainProgram .program li {
+body .home-page .mainProgram .program li {
   margin: -5px;
   margin-bottom: 27px;
   background-color: rgba(248, 247, 247, 0.233);
@@ -628,6 +647,12 @@ footer.Partner h2::after {
   text-shadow: 10px 10px 10px;
 }
 
+.cancel {
+  align-self: flex-end;
+  margin-right: 2rem;
+  margin-top: -5rem;
+}
+
 /* ------------ >>>> */
 
 /* -----------------------hidden------------------ */
@@ -639,6 +664,10 @@ body .hidden {
 }
 
 .featuredSpeakers .speakers li.hide.hidden {
+  display: none;
+}
+
+.menu.mobile.hidden {
   display: none;
 }
 

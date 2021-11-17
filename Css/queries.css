@@ -7,11 +7,12 @@
     display: block;
   }
 
-  .menu {
+  .menu.Desktop {
     display: flex;
+    flex-direction: row;
     background-color: white;
     align-items: flex-end;
-    width: 100%;
+    width: 200%;
     height: 100%;
     margin-left: -1rem;
   }
@@ -115,7 +116,7 @@
     margin-right: 10px;
   }
 
-  .home-page .mainProgram .program li {
+  body .home-page .mainProgram .program li {
     margin-left: -6px;
     height: 10rem;
     width: 19%;
@@ -220,5 +221,9 @@
   .pastImg.second,
   .pastImg.first {
     height: 33vmax;
+  }
+
+  .menu.hidden.mobile {
+    display: none;
   }
 }

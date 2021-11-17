@@ -28,12 +28,12 @@ document
 // Open the menu
 // prettier-ignore
 const openMenu = function () {
-  document.querySelector('.menu').classList.remove('hidden');
+  document.querySelector('.menu.mobile').classList.remove('hidden');
 };
 // Close the menu
 // prettier-ignore
 const closeMenu = function () {
-  document.querySelector('.menu').classList.add('hidden');
+  document.querySelector('.menu.mobile').classList.add('hidden');
 };
 // prettier-ignore
 const menuOpenerCloser = function () {
@@ -45,6 +45,10 @@ const menuOpenerCloser = function () {
 };
 // prettier-ignore
 document.getElementsByClassName('menu_')[0].addEventListener('click', menuOpenerCloser);
+document
+  .getElementsByClassName("cancel")[0]
+  .addEventListener("click", menuOpenerCloser);
+
 // Show Home Page
 // prettier-ignore
 const showHome = function () {
@@ -69,6 +73,7 @@ const showHome = function () {
     document.querySelector('.finalLogo').style.justifyContent = 'none';
     document.querySelector('.LogoImageContainer').style.height = '36vmax';
   }
+  closeMenu();
 };
 // Show About Page
 // prettier-ignore
@@ -95,6 +100,7 @@ const showAbout = function () {
     document.querySelector('.finalLogoImage').style.marginRight = '10px';
     document.querySelector('.LogoImageContainer').style.height = '36vmax';
   }
+  closeMenu();
 };
 // add Event listener to menu mobile options
 // prettier-ignore
