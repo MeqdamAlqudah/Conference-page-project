@@ -520,6 +520,7 @@ footer.Partner h2::after {
 .finalLogoImage {
   width: 8rem;
   height: 8rem;
+  margin: 10px;
 }
 
 .finalLogo p {
