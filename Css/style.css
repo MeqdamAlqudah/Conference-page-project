@@ -366,10 +366,9 @@ h2::after {
 }
 
 .logoImage {
-  width: 182px;
-  height: 124px;
-  margin-left: 17px;
-  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .logo h2,

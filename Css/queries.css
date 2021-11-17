@@ -168,9 +168,10 @@
     margin-bottom: 2rem;
   }
 
-  footer.Partner.hidden .finalLogo {
+  footer.Partner .finalLogo {
     justify-content: center;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .LogoImageContainer {
