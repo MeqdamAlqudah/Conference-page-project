@@ -138,6 +138,7 @@
     color: rgb(219, 216, 216);
     font-size: 11px;
     justify-self: center;
+    width: 143px;
   }
 
   .mainProgram h2.Desktop::after {
