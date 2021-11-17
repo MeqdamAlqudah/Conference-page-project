@@ -109,4 +109,5 @@ document.querySelector('.menu .menuDesk li.about').addEventListener('click', sho
 
 // prettier-ignore
 document.querySelector('.menu .menuDesk li.home').addEventListener('click', showHome);
-document.querySelector(".LogoDesktop").addEventListener("click", showHome);
+// prettier-ignore
+document.querySelector('.LogoDesktop').addEventListener('click', showHome);

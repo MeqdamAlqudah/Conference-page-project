@@ -8,12 +8,6 @@
   margin-left: 5px;
 }
 
-.featuredSpeakers .speakers img {
-  width: 40%;
-  height: 40%;
-  margin-right: 20px;
-}
-
 .featuredSpeakers .speakers li {
   display: flex;
   margin-top: 20px;
@@ -23,6 +17,12 @@
 .menu ul li:hover,
 .menu ul li:active {
   color: #ec5242;
+}
+
+.featuredSpeakers .speakers li img {
+  width: 40%;
+  height: 40%;
+  margin-right: 20px;
 }
 
 .featuredSpeakers .speakers li img:hover,
@@ -318,6 +318,13 @@ h2::after {
   margin-left: 2rem;
 }
 
+.more-btn:hover,
+.more-btn:active {
+  background-color: #ec5242;
+  color: #272a31;
+  box-shadow: 5px 5px 5px 5px;
+}
+
 .featuredSpeakers .speakers li .texContainer span {
   margin-bottom: 10px;
 }
@@ -597,6 +604,29 @@ footer.Partner h2::after {
 }
 
 /* ------------ >>>> */
+
+.PastContainer .pastImg.first:hover,
+.PastContainer .partImage.first:active {
+  /* prettier-ignore */
+  background-image:
+    url("background-img/images.jpg"),
+    linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.PastContainer .pastImg.second:hover,
+.PastContainer .pastImg.second:active {
+  /* prettier-ignore */
+  background-image:
+    url("background-img/download.jpg"),
+    linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.PastContainer .pastImg h2:hover,
+.PastContainer .pastImg h2:active {
+  font-size: 30px;
+  color: #ec5242;
+  text-shadow: 10px 10px 10px;
+}
 
 /* ------------ >>>> */
 
