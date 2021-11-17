@@ -1,9 +1,9 @@
 @media only screen and (min-width: 768px) {
-  .mobile {
+  body .mobile {
     display: none;
   }
 
-  .Desktop {
+  body .Desktop {
     display: block;
   }
 
@@ -32,13 +32,17 @@
   }
 
   .home-page {
-    background-size: cover;
+    background-size: 256vmin 849px;
   }
 
   #headerList {
     background-color: #272a31;
     display: flex;
     justify-content: flex-end;
+  }
+
+  .featuredSpeakers .speakers li.hide.hidden {
+    display: flex;
   }
 
   #headerList .languages {
@@ -56,6 +60,15 @@
     color: white;
   }
 
+  .container {
+    align-items: center;
+  }
+
+  .container p.display-1 {
+    margin-left: -189px;
+    font-size: 30px;
+  }
+
   #headerList .facebook a p {
     font-size: 30px;
     color: white;
@@ -68,5 +81,124 @@
   .LogoDesktop {
     width: 6rem;
     height: 5rem;
+  }
+
+  .container h1 {
+    margin-left: 100px;
+    font-size: 60px;
+    margin-bottom: -8px;
+  }
+
+  .text-container {
+    width: 67vmax;
+    height: 11vmax;
+    margin-right: -2rem;
+    background-color: rgb(243 243 243);
+  }
+
+  .home-page .date {
+    text-align: left;
+    margin-left: 50px;
+  }
+
+  .home-page .date .location_ {
+    margin-left: 48px;
+  }
+
+  .program {
+    display: flex;
+    justify-content: center;
+    margin-right: 17px;
+  }
+
+  .featuredSpeakers .speakers li {
+    margin-right: 10px;
+  }
+
+  .home-page .mainProgram .program li {
+    margin-left: -6px;
+    height: 10rem;
+    width: 9rem;
+    padding-top: 1rem;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .home-page .mainProgram .program li .text {
+    margin-left: 1px;
+  }
+
+  .mainProgram h2.Desktop {
+    color: rgb(219, 216, 216);
+    font-size: 11px;
+  }
+
+  .mainProgram h2.Desktop::after {
+    background-color: rgb(185, 184, 184);
+    margin-top: 1px;
+    width: 140px;
+    font-weight: normal;
+    margin-bottom: 4rem;
+  }
+
+  .speakers {
+    display: grid;
+    height: 800px;
+  }
+
+  /* featuerd speakers */
+
+  .featuredSpeakers .speakers li.third {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .featuredSpeakers .speakers li.fourth {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  footer.Partner.hidden {
+    display: flex;
+    background-color: #252626;
+  }
+
+  footer.Partner.hidden .PartnerContainer img {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  footer.Partner.hidden .finalLogo {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .LogoImageContainer {
+    width: 729px;
+    height: 36vmax;
+  }
+
+  .text-containerAbout-page {
+    width: 30rem;
+  }
+
+  .logoImage {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .PastContainer {
+    flex-direction: row;
+  }
+
+  .PastContainer div {
+    margin-right: 1rem;
+    height: 10rem;
+  }
+
+  .pastImg.second,
+  .pastImg.first {
+    height: 33vmax;
   }
 }
