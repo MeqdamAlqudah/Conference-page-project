@@ -1,0 +1,588 @@
+/* ------Chage the location to fix linter-------- */
+.menu ul li {
+  margin-top: 30px;
+}
+
+.featuredSpeakers .speakers li {
+  display: flex;
+  margin-top: 20px;
+  margin-top: 7px;
+}
+
+/* ----------------------body-------------------- */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f5f4f4;
+}
+
+/* hide Desktop stuff */
+.Desktop {
+  display: none;
+}
+
+/* <<<<----------------------------------------------- */
+
+/* ---- home page --- */
+
+/* ------------------------------------------------ */
+
+#headerList {
+  list-style: none;
+  margin-top: 0;
+  display: flex;
+}
+
+/* <<<<---- Sizing the menu */
+
+#menuButton {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: -29px;
+}
+
+.menu {
+  background-color: white;
+  width: 80%;
+  height: 50vmax;
+  position: relative;
+  top: -1rem;
+  display: flex;
+  flex-direction: column;
+  left: 1rem;
+}
+
+.menu ul {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+}
+
+.menu ul li:hover,
+.menu ul li:active {
+  color: #ec5242;
+}
+
+.buyTicket {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ec5242;
+  padding: 10px;
+  color: #ec5242;
+}
+
+.buyTicket:hover,
+.buyTicket:active {
+  background-color: #ec5242;
+  color: #272a31;
+}
+
+/* ------------ >>>> */
+
+/* <<<<---- Sizing the home-page */
+.home-page {
+  display: flex;
+  flex-direction: column;
+  background-image: url("background-img/first-section\ \(1\).png");
+  background-position-x: -30rem;
+  background-size: 310% 49%;
+  background-repeat: no-repeat;
+}
+
+/* ------------ >>>> */
+
+/* <<<<----styling h1 */
+@font-face {
+  font-family: Cocogoose;
+  src: url("cocogoose-pro.regular.ttf");
+}
+
+.home-page h1 {
+  color: #ec5242;
+  font-family: Cocogoose, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  mask-image: url("background-img/Mask.png");
+  margin-top: 1px;
+  margin-left: 10px;
+  font-size: 32px;
+}
+
+.home-page span {
+  color: #ec5242;
+  font-style: normal;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.home-page p {
+  color: #ec5242;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 32px;
+}
+
+/* ------------ >>>> */
+
+/* <<<<----text-container */
+.text-container {
+  margin: 4.9px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  background-color: rgba(248, 247, 247, 0.712);
+  width: 299px;
+  height: 122px;
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container p {
+  font-family: "Lato", sans-serif;
+  color: #606161;
+  text-align: left;
+  margin-left: 5px;
+  line-height: 1.9;
+  font-size: 13px;
+}
+
+/* ------------ >>>> */
+.home-page .date {
+  color: #4d4e50;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-left: 6px;
+  margin-bottom: 31vw;
+  text-align: center;
+}
+
+.home-page p .location_ {
+  color: #69696b;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+/* <<<<----text-container */
+
+.mainProgram {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("background-img/unnamed.png");
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+h2::after {
+  display: block;
+  height: 2px;
+  background-color: #ec5242;
+  content: " ";
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+/* <<<<----Designe the program list */
+.program {
+  list-style: none;
+  width: 100%;
+}
+
+.program span .partTitle {
+  color: #ec5242;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.home-page .mainProgram .program li {
+  margin: -5px;
+  margin-bottom: 27px;
+  background-color: rgba(248, 247, 247, 0.233);
+  width: 89%;
+  height: 71px;
+  display: flex;
+  align-items: center;
+}
+
+.program li img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.program li .text {
+  font-size: 11px;
+  font-family: "lato", sans-serif;
+  color: rgb(214, 214, 214);
+  margin-left: 6px;
+}
+
+.mainProgramButton {
+  background-color: #ec5242;
+  color: white;
+  border-style: none;
+  font-family: "lato", sans-serif;
+  width: 16rem;
+  height: 3rem;
+  margin-bottom: 20px;
+}
+
+/* ------------ >>>> */
+
+/* <<<<----Designe the speaker list */
+
+.featuredSpeakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featuredSpeakers h2 {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+}
+
+.speakers {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 6px;
+  padding-right: 10px;
+}
+
+.featuredSpeakers .speakers img {
+  width: 40%;
+  height: 40%;
+  margin-right: 20px;
+}
+
+.featuredSpeakers .speakers li .texContainer {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  font-size: 10px;
+  margin-top: 12px;
+}
+
+.more-btn {
+  margin-top: 20px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(202, 200, 200);
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.featuredSpeakers .speakers li .texContainer span {
+  margin-bottom: 10px;
+}
+
+.featuredSpeakers .speakers li .texContainer .name {
+  font-size: 15px;
+  color: #272a31;
+}
+
+.featuredSpeakers .speakers li .texContainer .introduce {
+  color: #ec5242;
+}
+
+.featuredSpeakers .speakers li .texContainer .introduce::after {
+  display: block;
+  height: 2px;
+  background-color: #cecccb;
+  content: " ";
+  width: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.featuredSpeakers .speakers li .texContainer .activity {
+  color: #272a31;
+}
+
+#down {
+  width: 14px;
+  height: 14px;
+  margin-left: 3px;
+}
+
+.hide {
+  display: flex;
+  flex-direction: column;
+}
+
+.more-btn span .up {
+  width: 14px;
+  height: 14px;
+  margin-left: 3px;
+}
+
+/* ------------ >>>> */
+
+/* ------------ >>>> */
+
+/* -----------------------About page------------------ */
+
+/* logo-styling */
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.logo p {
+  text-align: center;
+  margin: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+
+.logoImage {
+  width: 182px;
+  height: 124px;
+  margin-left: 17px;
+  margin-top: 1rem;
+}
+
+.logo h2,
+.pastSummit h2 {
+  color: #272a31;
+  margin-left: 54px;
+  margin-right: 70px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.LogoImageContainer {
+  width: 90%;
+  margin-left: 16px;
+  height: 33vmax;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddddddcb;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pastSummit::before {
+  display: block;
+  height: 2px;
+  background-color: #e2e0e0;
+  content: " ";
+  width: 800px;
+  position: relative;
+  margin-top: 20px;
+  right: -4px;
+  top: 2rem;
+}
+
+/* ------------ >>>> */
+
+/* ---------.pastSummit -------- */
+.pastSummit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.pastSummit p {
+  font-family: "Lato", sans-serif;
+  color: #69696b;
+  text-align: center;
+  margin-left: 20px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.pastImg.first {
+  /* prettier-ignore */
+  background-image:
+    linear-gradient(#ec53428e, #ec534270),
+    url("background-img/images.jpg");
+  width: 100%;
+  height: 45vmax;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pastImg.second {
+  /* prettier-ignore */
+  background-image:
+    linear-gradient(#ec53428e, #ec534270),
+    url("background-img/download.jpg");
+  width: 100%;
+  height: 45vmax;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.PastContainer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.PastContainer h2 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  left: 1pc;
+  top: 2rem;
+}
+
+.pastSummit .PastContainer h2 span:last-child {
+  font-size: 14px;
+}
+
+.PastContainer h2::after {
+  display: none;
+}
+
+footer {
+  background-color: #444649;
+  background-size: cover;
+  margin-top: 20px;
+}
+
+.Partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer.Partner h2 {
+  text-align: center;
+  padding-top: 17px;
+}
+
+footer.Partner h2::after {
+  margin-top: 0.5rem;
+}
+
+.PartnerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+}
+
+.partImage {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.finalLogo {
+  background-color: white;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+}
+
+.finalLogoImage {
+  width: 8rem;
+  height: 8rem;
+}
+
+.finalLogo p {
+  margin-top: 3rem;
+  font-family: "Lato", sans-serif;
+  color: #69696b;
+  font-size: 11px;
+}
+
+.text-containerAbout-page {
+  background-color: white;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  line-height: 1.9;
+  margin: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+}
+
+.text-containerAbout-page p {
+  font-family: "Lato", sans-serif;
+  color: #606161;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 5px;
+  line-height: 1.9;
+}
+
+.dateAbout {
+  color: #4d4e50;
+  font-size: 27px;
+  font-family: sans-serif;
+  margin: 20px;
+  font-weight: 600;
+  margin-left: 6px;
+  margin-bottom: 31vw;
+  line-height: 0.7;
+  text-align: center;
+}
+
+.dateAbout .dateAbout {
+  font-size: 12px;
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+}
+
+.dateAbout .locationAbout {
+  text-decoration-line: underline;
+  color: #4f4f52;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* ------------ >>>> */
+
+/* ------------ >>>> */
+
+/* -----------------------hidden------------------ */
+
+/* when I add this class to any element it will disappear */
+
+body .hidden {
+  display: none;
+}
+
+/* ------------------------>>>>>>>>> */
