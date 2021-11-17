@@ -93,7 +93,7 @@ const showAbout = function () {
     document.querySelector('.finalLogo').style.justifyContent = 'center';
     document.querySelector('.finalLogo').style.marginTop = '10px';
     document.querySelector('.finalLogoImage').style.marginRight = '10px';
-    document.querySelector('.LogoImageContainer').style.height = '21vmax';
+    document.querySelector('.LogoImageContainer').style.height = '31vmax';
   }
 };
 // add Event listener to menu mobile options
