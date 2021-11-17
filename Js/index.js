@@ -1,4 +1,3 @@
-/* eslint-disable func-names */
 // more-button activation
 const moreElements = function () {
   // prettier-ignore

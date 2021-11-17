@@ -300,6 +300,8 @@ h2::after {
   font-family: "Lato", sans-serif;
   display: flex;
   justify-content: center;
+  width: 90%;
+  margin-left: 2rem;
 }
 
 .featuredSpeakers .speakers li .texContainer span {

@@ -153,9 +153,19 @@
     grid-row: 3;
   }
 
+  .featuredSpeakers .speakers li.fifth {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
   .featuredSpeakers .speakers li.fourth {
     grid-column: 2;
     grid-row: 1;
+  }
+
+  .featuredSpeakers .speakers li.six {
+    grid-column: 2;
+    grid-row: 3;
   }
 
   footer.Partner.hidden {
@@ -171,7 +181,6 @@
   footer.Partner .finalLogo {
     justify-content: center;
     margin-top: 10px;
-    margin-bottom: 10px;
   }
 
   .LogoImageContainer {
