@@ -32,7 +32,7 @@
   }
 
   .home-page {
-    background-size: 256vmin 849px;
+    background-size: 256vmin 1072px;
   }
 
   #headerList {
@@ -93,7 +93,7 @@
     width: 67vmax;
     height: 11vmax;
     margin-right: -2rem;
-    background-color: rgb(243 243 243);
+    background-color: rgba(243, 243, 243, 0.473);
   }
 
   .home-page .date {
@@ -143,7 +143,7 @@
 
   .speakers {
     display: grid;
-    height: 800px;
+    height: 900px;
   }
 
   /* featuerd speakers */
