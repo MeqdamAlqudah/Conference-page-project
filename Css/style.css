@@ -3,10 +3,34 @@
   margin-top: 30px;
 }
 
+.program li img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.featuredSpeakers .speakers img {
+  width: 40%;
+  height: 40%;
+  margin-right: 20px;
+}
+
 .featuredSpeakers .speakers li {
   display: flex;
   margin-top: 20px;
   margin-top: 7px;
+}
+
+.menu ul li:hover,
+.menu ul li:active {
+  color: #ec5242;
+}
+
+.featuredSpeakers .speakers li img:hover,
+.featuredSpeakers .speakers li img:active {
+  box-shadow: 10px 10px 10px 10px;
+  width: 60%;
+  height: 60%;
+  margin-right: 20px;
 }
 
 /* ----------------------body-------------------- */
@@ -61,11 +85,6 @@ body .Desktop {
 .menu ul {
   list-style: none;
   font-family: "Lato", sans-serif;
-}
-
-.menu ul li:hover,
-.menu ul li:active {
-  color: #ec5242;
 }
 
 .buyTicket {
@@ -225,9 +244,10 @@ h2::after {
   align-items: center;
 }
 
-.program li img {
-  margin-right: 5px;
-  margin-left: 5px;
+.home-page .mainProgram .program li:hover,
+.home-page .mainProgram .program li:active {
+  box-shadow: 10px 10px 10px 10px;
+  opacity: 1;
 }
 
 .program li .text {
@@ -274,12 +294,6 @@ h2::after {
   flex-direction: column;
   padding-left: 6px;
   padding-right: 10px;
-}
-
-.featuredSpeakers .speakers img {
-  width: 40%;
-  height: 40%;
-  margin-right: 20px;
 }
 
 .featuredSpeakers .speakers li .texContainer {
@@ -521,6 +535,11 @@ footer.Partner h2::after {
   width: 8rem;
   height: 8rem;
   margin: 10px;
+}
+
+.featuredSpeakers .speakers li .texContainer span:hover,
+.featuredSpeakers .speakers li .texContainer span:active {
+  text-decoration: underline;
 }
 
 .finalLogo p {
