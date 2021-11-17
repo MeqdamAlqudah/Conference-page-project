@@ -257,6 +257,16 @@ h2::after {
   align-items: center;
 }
 
+.twitter {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+}
+
+.hide.hidden {
+  display: block;
+}
+
 .featuredSpeakers h2 {
   font-family: "Lato", sans-serif;
   color: #272a31;

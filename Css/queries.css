@@ -1,5 +1,72 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .mobile {
     display: none;
+  }
+
+  .Desktop {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    background-color: white;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    margin-left: -1rem;
+  }
+
+  .menuDesk {
+    display: flex;
+  }
+
+  .menuDesk li {
+    margin-left: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .menuDesk li:first-child {
+    margin-right: 12rem;
+    margin-top: 0;
+  }
+
+  .home-page {
+    background-size: cover;
+  }
+
+  #headerList {
+    background-color: #272a31;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #headerList .languages {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #headerList .twitter {
+    width: 3ch;
+    height: 3ch;
+    margin-top: 7px;
+    color: white;
+  }
+
+  #headerList .facebook a p {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    width: 20px;
+    margin: 2px;
+    font-family: sans-serif;
+  }
+
+  .LogoDesktop {
+    width: 6rem;
+    height: 5rem;
   }
 }
