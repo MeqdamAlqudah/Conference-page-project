@@ -118,14 +118,20 @@
   .home-page .mainProgram .program li {
     margin-left: -6px;
     height: 10rem;
-    width: 9rem;
+    width: 19%;
     padding-top: 1rem;
     flex-direction: column;
     margin-right: 10px;
   }
 
+  .program li img {
+    margin-bottom: 19px;
+  }
+
   .home-page .mainProgram .program li .text {
     margin-left: 1px;
+    margin-top: 8px;
+    text-align: center;
   }
 
   .mainProgram h2.Desktop {
@@ -143,7 +149,8 @@
 
   .speakers {
     display: grid;
-    height: 900px;
+    height: 724px;
+    width: 724px;
   }
 
   /* featuerd speakers */
@@ -176,6 +183,7 @@
   footer.Partner.hidden .PartnerContainer img {
     margin-right: 2rem;
     margin-bottom: 2rem;
+    width: 14%;
   }
 
   footer.Partner .finalLogo {

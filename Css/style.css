@@ -501,12 +501,12 @@ footer.Partner h2::after {
 .PartnerContainer {
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   justify-content: center;
 }
 
 .partImage {
-  width: 4.5rem;
+  width: 5.5rem;
   height: 4.5rem;
 }
 
