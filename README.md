@@ -11,7 +11,6 @@ Basic design of the home page :
 3 main program in the summit
 4- Speakers who will give a nice speach in the summit
 ![screenshot](img/Readme-file/Capture.PNG)
-![screenshot](img/Readme-file/Capture1.PNG)
 ![screenshot](img/Readme-file/Capture2.PNG)
 ![screenshot](img/Readme-file/Capture3.PNG)
 ![screenshot](img/Readme-file/Capture4.PNG)
