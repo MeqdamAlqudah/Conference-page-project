@@ -60,7 +60,9 @@ Chrome or any explorer
 
 ## Authors
 
-👤 **Meqdam Al-qudah**
+- Cindy Shin
+  cc logo Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+  👤 **Meqdam Al-qudah**
 
 - [GitHub](https://github.com/MeqdamAlqudah)
 - [Twitter](https://twitter.com/MeqdamQudah)
