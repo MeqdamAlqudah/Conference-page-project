@@ -12,6 +12,7 @@
 
 .menu.mobile ul li {
   margin-top: 5rem;
+  font-size: 30px;
 }
 
 .menu.mobile ul li:hover,
@@ -649,7 +650,9 @@ footer.Partner h2::after {
 .cancel {
   align-self: flex-end;
   margin-right: 2rem;
-  margin-top: -5rem;
+  margin-top: -34rem;
+  width: 30px;
+  height: 30px;
 }
 
 /* ------------ >>>> */
