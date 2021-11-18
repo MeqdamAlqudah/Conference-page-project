@@ -97,6 +97,8 @@ body .Desktop {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  top: -36px;
 }
 
 .menu.Desktop ul {
@@ -650,7 +652,7 @@ footer.Partner h2::after {
 .cancel {
   align-self: flex-end;
   margin-right: 2rem;
-  margin-top: -34rem;
+  margin-top: -4rem;
   width: 30px;
   height: 30px;
 }
