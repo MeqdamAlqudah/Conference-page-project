@@ -339,7 +339,6 @@ body .home-page .mainProgram .program li {
 
 .more-btn:hover,
 .more-btn:active {
-  background-color: #ec5242;
   color: #272a31;
   box-shadow: 5px 5px 5px 5px;
 }
