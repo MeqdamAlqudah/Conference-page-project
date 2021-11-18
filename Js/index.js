@@ -73,6 +73,8 @@ const showHome = function () {
     document.querySelector('.finalLogo').style.backgroundColor = 'white';
     document.querySelector('.finalLogo').style.justifyContent = 'none';
     document.querySelector('.LogoImageContainer').style.height = '43vmax';
+    document.querySelector('img.finalLogoImage').style.height= '8rem';
+    closeMenu();
   }
   closeMenu();
 };
@@ -99,7 +101,10 @@ const showAbout = function () {
     document.querySelector('.finalLogo').style.justifyContent = 'center';
     document.querySelector('.finalLogo').style.marginTop = '10px';
     document.querySelector('.finalLogoImage').style.marginRight = '10px';
+    document.querySelector('.finalLogoImage').style.marginBottom = '10px';
     document.querySelector('.LogoImageContainer').style.height = '36vmax';
+    document.querySelector('.finalLogoImage').style.height= '8rem';
+    closeMenu();
   }
   closeMenu();
 };

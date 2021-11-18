@@ -98,7 +98,7 @@ body .Desktop {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: -36px;
+  top: -12px;
 }
 
 .menu.Desktop ul {
@@ -562,9 +562,8 @@ footer.Partner h2::after {
 }
 
 .finalLogoImage {
-  width: 19rem;
-  height: 8rem;
-  margin: 0;
+  width: 9rem;
+  height: 4rem;
 }
 
 .featuredSpeakers .speakers li .texContainer span:hover,
@@ -573,7 +572,7 @@ footer.Partner h2::after {
 }
 
 .finalLogo p {
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-family: "Lato", sans-serif;
   color: #69696b;
   font-size: 11px;
