@@ -27,7 +27,7 @@
 
 .featuredSpeakers .speakers li img {
   width: 40%;
-  height: 40%;
+  height: 60%;
   margin-right: 20px;
 }
 
@@ -425,7 +425,7 @@ body .home-page .mainProgram .program li {
 }
 
 .LogoImageContainer {
-  width: 90%;
+  width: 15rem;
   margin-left: 16px;
   height: 45vmax;
   border-style: solid;
@@ -520,7 +520,7 @@ body .home-page .mainProgram .program li {
 }
 
 footer {
-  background-color: #444649;
+  background-color: #252626;
   background-size: cover;
   margin-top: 20px;
 }
@@ -543,13 +543,15 @@ footer.Partner h2::after {
 .PartnerContainer {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
+  width: 80%;
   justify-content: center;
+  margin: auto;
 }
 
 .partImage {
-  width: 5.5rem;
-  height: 4.5rem;
+  width: 50%;
+  height: auto;
+  margin: auto;
 }
 
 .finalLogo {
@@ -560,9 +562,9 @@ footer.Partner h2::after {
 }
 
 .finalLogoImage {
-  width: 8rem;
+  width: 19rem;
   height: 8rem;
-  margin: 10px;
+  margin: 0;
 }
 
 .featuredSpeakers .speakers li .texContainer span:hover,

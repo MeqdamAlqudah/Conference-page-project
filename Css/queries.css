@@ -22,7 +22,7 @@
   }
 
   .menuDesk li {
-    margin-left: 3rem;
+    margin-left: 4ch;
     margin-right: 1rem;
     margin-bottom: 1rem;
   }
@@ -80,8 +80,8 @@
   }
 
   .LogoDesktop {
-    width: 6rem;
-    height: 5rem;
+    width: 11rem;
+    height: 9rem;
   }
 
   .container h1 {
@@ -183,6 +183,10 @@
     background-color: #252626;
   }
 
+  footer.Partner.hidden .PartnerContainer {
+    flex-wrap: nowrap;
+  }
+
   footer.Partner.hidden .PartnerContainer img {
     margin-right: 2rem;
     margin-bottom: 2rem;
@@ -195,7 +199,7 @@
   }
 
   .LogoImageContainer {
-    width: 729px;
+    width: 506px;
     height: 36vmax;
   }
 

@@ -71,7 +71,7 @@ const showHome = function () {
     document.querySelector('.Partner h2').classList.remove('hidden');
     document.querySelector('.finalLogo').style.backgroundColor = 'white';
     document.querySelector('.finalLogo').style.justifyContent = 'none';
-    document.querySelector('.LogoImageContainer').style.height = '36vmax';
+    document.querySelector('.LogoImageContainer').style.height = '43vmax';
   }
   closeMenu();
 };
