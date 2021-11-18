@@ -45,9 +45,10 @@ const menuOpenerCloser = function () {
 };
 // prettier-ignore
 document.getElementsByClassName('menu_')[0].addEventListener('click', menuOpenerCloser);
+// prettier-ignore
 document
-  .getElementsByClassName("cancel")[0]
-  .addEventListener("click", menuOpenerCloser);
+  .getElementsByClassName('cancel')[0]
+  .addEventListener('click', menuOpenerCloser);
 
 // Show Home Page
 // prettier-ignore
