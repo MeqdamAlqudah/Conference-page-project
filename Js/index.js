@@ -100,8 +100,9 @@ const showAbout = function () {
   document.getElementsByClassName('dateAbout')[0].classList.remove('hidden');
   document.getElementsByClassName('date')[0].classList.add('hidden');
   document.querySelector('.home-page').style.marginBottom = '56px';
+  document.querySelector('.PartnerContainer').classList.remove('hidden');
+  document.querySelector('.finalLogo').style.backgroundColor = 'white';
   if (window.screen.width >= 768) {
-    document.querySelector('.PartnerContainer').classList.add('hidden');
     document.querySelector('.Partner h2').classList.add('hidden');
     document.querySelector('.Partner').style.backgroundColor = '#252626';
     document.querySelector('.finalLogo').style.backgroundColor = '#252626';
