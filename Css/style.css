@@ -191,7 +191,7 @@ body .Desktop {
   font-family: "Lato", sans-serif;
   color: #606161;
   text-align: left;
-  margin-left: 5px;
+  margin: 40px;
   line-height: 1.9;
   font-size: 13px;
 }
@@ -205,6 +205,7 @@ body .Desktop {
   margin-left: 6px;
   margin-bottom: 31vw;
   text-align: center;
+  margin-top: 88px;
 }
 
 .home-page p .location_ {

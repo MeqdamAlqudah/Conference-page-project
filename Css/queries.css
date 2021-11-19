@@ -19,6 +19,8 @@
 
   .menuDesk {
     display: flex;
+    margin: 0;
+    width: 49%;
   }
 
   .menuDesk li {
@@ -30,6 +32,7 @@
   .menuDesk li:first-child {
     margin-right: 12rem;
     margin-top: 0;
+    flex: 5;
   }
 
   .home-page {
@@ -62,12 +65,12 @@
   }
 
   .container {
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 10rem;
   }
 
   .container p.display-1 {
-    margin-left: -189px;
-    font-size: 30px;
+    font-size: 50px;
   }
 
   #headerList .facebook a p {
@@ -80,30 +83,29 @@
   }
 
   .LogoDesktop {
-    width: 11rem;
-    height: 9rem;
+    width: 4rem;
+    height: 3rem;
   }
 
   .container h1 {
-    margin-left: 100px;
-    font-size: 60px;
+    font-size: 80px;
     margin-bottom: -8px;
   }
 
   .text-container {
     width: 67vmax;
-    height: 11vmax;
-    margin-right: -2rem;
+    height: 9vmax;
     background-color: rgba(243, 243, 243, 0.473);
   }
 
   .home-page .date {
     text-align: left;
-    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 88px;
   }
 
   .home-page .date .location_ {
-    margin-left: 48px;
+    font-size: 11px;
   }
 
   .program {

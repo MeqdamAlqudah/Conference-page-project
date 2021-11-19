@@ -1,4 +1,3 @@
-
 # Project Name
 
 Conference page
@@ -61,13 +60,15 @@ Chrome or any explorer
 
 ## Authors
 
-- Cindy Shin
-  cc logo Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-  👤 **Meqdam Al-qudah**
+👤 **Meqdam Al-qudah**
 
 - [GitHub](https://github.com/MeqdamAlqudah)
 - [Twitter](https://twitter.com/MeqdamQudah)
-- [LinkedIn](www.linkedin.com/in/meqdam-al-qudah-7514a21b5)
-=======
-# Conference-page-project
+- # [LinkedIn](www.linkedin.com/in/meqdam-al-qudah-7514a21b5)
 
+## "Acknowledgements"
+
+UI design credit :
+
+- Cindy Shin
+  cc logo Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)

@@ -65,6 +65,7 @@ const showHome = function () {
   document.getElementsByClassName('date')[0].classList.remove('hidden');
   document.getElementsByClassName('about-page')[0].classList.add('hidden');
   document.getElementsByClassName('Partner')[0].classList.add('hidden');
+  document.querySelector('.container h1').style.fontSize = '40px';
   document.querySelector('.text-container').classList.remove('hidden');
   document.querySelector('.text-containerAbout-page').classList.add('hidden');
   if (window.screen.width >= 768) {
@@ -74,6 +75,11 @@ const showHome = function () {
     document.querySelector('.finalLogo').style.justifyContent = 'none';
     document.querySelector('.LogoImageContainer').style.height = '43vmax';
     document.querySelector('img.finalLogoImage').style.height = '8rem';
+    document.querySelector('.container h1').style.fontSize = '80px';
+    document.querySelector('.container').style.alignItems = 'left';
+    document.querySelector('.container p.display-1').classList.remove('hidden');
+    document.querySelector('.container').style.marginLeft= '10rem';
+    document.querySelector('.container').style.alignItems = 'flex-start';
     closeMenu();
   }
   closeMenu();
@@ -88,6 +94,7 @@ const showAbout = function () {
   document.querySelector('.container h1').style.textAlign = 'center';
   document.getElementsByClassName('mainProgram')[0].classList.add('hidden');
   document.getElementsByClassName('featuredSpeakers')[0].classList.add('hidden');
+  document.querySelector('.container h1').style.fontSize = '40px';
   document.getElementsByClassName('about-page')[0].classList.remove('hidden');
   document.getElementsByClassName('Partner')[0].classList.remove('hidden');
   document.getElementsByClassName('dateAbout')[0].classList.remove('hidden');
@@ -104,6 +111,12 @@ const showAbout = function () {
     document.querySelector('.finalLogoImage').style.marginBottom = '10px';
     document.querySelector('.LogoImageContainer').style.height = '36vmax';
     document.querySelector('.finalLogoImage').style.height = '8rem';
+    document.querySelector('.container h1').style.fontSize = '60px';
+    document.querySelector('.container').style.alignItems = 'center';
+    document.querySelector('.container p.display-1').classList.add('hidden');
+    document.querySelector('.container').style.marginTop = '40px';
+    document.querySelector('.container').style.marginLeft= '0';
+
     closeMenu();
   }
   closeMenu();
@@ -123,3 +136,18 @@ document.querySelector('.menu .menuDesk li.about').addEventListener('click', sho
 document.querySelector('.menu .menuDesk li.home').addEventListener('click', showHome);
 // prettier-ignore
 document.querySelector('.LogoDesktop').addEventListener('click', showHome);
+// prettier-ignore
+const changeThings = function () {
+  document.querySelector('div.text-container').style.alignSelf = 'flex-start';
+document.querySelector('.LogoImageContainer').style.height = '43vmax';
+    document.querySelector('img.finalLogoImage').style.height = '8rem';
+    document.querySelector('.text-containerAbout-page').style.width = '90%';
+  if(window.screen.width >= 768 ) {
+document.querySelector('div.text-container').style.alignSelf = 'flex-start';
+document.querySelector('.LogoImageContainer').style.height = '43vmax';
+    document.querySelector('img.finalLogoImage').style.height = '8rem';
+    document.querySelector('.text-containerAbout-page').style.width = '90%';
+  }
+}
+// prettier-ignore
+document.querySelector('body').addEventListener('scroll',changeThings);
