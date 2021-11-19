@@ -560,6 +560,9 @@ footer.Partner h2::after {
   background-size: cover;
   width: 100%;
   display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .finalLogoImage {
@@ -577,6 +580,7 @@ footer.Partner h2::after {
   font-family: "Lato", sans-serif;
   color: #69696b;
   font-size: 11px;
+  margin-left: 48px;
 }
 
 .text-containerAbout-page {
