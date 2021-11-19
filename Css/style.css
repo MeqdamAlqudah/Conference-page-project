@@ -143,9 +143,10 @@ body .Desktop {
   src: url("cocogoose-pro.regular.ttf");
 }
 
+/* prettier-ignore */
 .home-page h1 {
   color: #ec5242;
-  font-family: "Cocogoose", sans-serif;
+  font-family: 'Cocogoose', sans-serif;
   font-style: normal;
   font-weight: normal;
   mask-image: url("background-img/Mask.png");
