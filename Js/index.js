@@ -143,12 +143,12 @@ const changeThings = function () {
   document.querySelector('img.finalLogoImage').style.height = '8rem';
   document.querySelector('.text-containerAbout-page').style.width = '90%';
 
-  if (window.screen.width >= 768 ) {
+  if (window.screen.width >= 768) {
     document.querySelector('div.text-container').style.alignSelf = 'flex-start';
     document.querySelector('.LogoImageContainer').style.height = '43vmax';
     document.querySelector('img.finalLogoImage').style.height = '8rem';
     document.querySelector('.text-containerAbout-page').style.width = '90%';
-  };
-}
+  }
+};
 // prettier-ignore
 document.querySelector('body').addEventListener('scroll', changeThings);
