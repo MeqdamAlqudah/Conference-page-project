@@ -68,6 +68,7 @@ const showHome = function () {
   document.querySelector('.container h1').style.fontSize = '40px';
   document.querySelector('.text-container').classList.remove('hidden');
   document.querySelector('.text-containerAbout-page').classList.add('hidden');
+  document.querySelector('.PartnerContainer').classList.add('hidden');
   if (window.screen.width >= 768) {
     document.querySelector('.PartnerContainer').classList.remove('hidden');
     document.querySelector('.Partner h2').classList.remove('hidden');
@@ -104,6 +105,7 @@ const showAbout = function () {
   document.querySelector('.finalLogo').style.backgroundColor = 'white';
   if (window.screen.width >= 768) {
     document.querySelector('.Partner h2').classList.add('hidden');
+    document.querySelector('.PartnerContainer').classList.add('hidden');
     document.querySelector('.Partner').style.backgroundColor = '#252626';
     document.querySelector('.finalLogo').style.backgroundColor = '#252626';
     document.querySelector('.finalLogo').style.justifyContent = 'center';
