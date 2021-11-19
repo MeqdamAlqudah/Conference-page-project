@@ -1,5 +1,234 @@
-@media only screen and (min-width: 1024px) {
-  .mobile {
+@media only screen and (min-width: 768px) {
+  body .mobile {
+    display: none;
+  }
+
+  body .Desktop {
+    display: block;
+  }
+
+  .menu.Desktop {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: flex-end;
+    width: 200%;
+    height: 100%;
+    margin-left: -1rem;
+  }
+
+  .menuDesk {
+    display: flex;
+    margin: 0;
+    width: 49%;
+  }
+
+  .menuDesk li {
+    margin-left: 4ch;
+    margin-right: 1rem;
+  }
+
+  .menuDesk li:first-child {
+    margin-right: 12rem;
+    margin-top: 0;
+    flex: 5;
+  }
+
+  .home-page {
+    background-size: 256vmin 1072px;
+  }
+
+  #headerList {
+    background-color: #272a31;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .featuredSpeakers .speakers li.hide.hidden {
+    display: flex;
+  }
+
+  #headerList .languages {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #headerList .twitter {
+    width: 3ch;
+    height: 3ch;
+    margin-top: 7px;
+    color: white;
+  }
+
+  .container {
+    align-items: flex-start;
+    margin-left: 10rem;
+  }
+
+  .container p.display-1 {
+    font-size: 50px;
+  }
+
+  #headerList .facebook a p {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    width: 20px;
+    margin: 2px;
+    font-family: sans-serif;
+  }
+
+  .LogoDesktop {
+    width: 4rem;
+    height: 3rem;
+  }
+
+  .container h1 {
+    font-size: 80px;
+    margin-bottom: -8px;
+  }
+
+  .text-container {
+    width: 67vmax;
+    height: 9vmax;
+    background-color: rgba(243, 243, 243, 0.473);
+  }
+
+  .home-page .date {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 88px;
+  }
+
+  .home-page .date .location_ {
+    font-size: 11px;
+  }
+
+  .program {
+    display: flex;
+    justify-content: center;
+    margin-right: 17px;
+  }
+
+  .featuredSpeakers .speakers li {
+    margin-right: 10px;
+  }
+
+  body .home-page .mainProgram .program li {
+    margin-left: -6px;
+    height: 10rem;
+    width: 19%;
+    padding-top: 1rem;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .program li img {
+    margin-bottom: 19px;
+  }
+
+  .home-page .mainProgram .program li .text {
+    margin-left: 1px;
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .mainProgram h2.Desktop {
+    color: rgb(219, 216, 216);
+    font-size: 11px;
+    justify-self: center;
+    width: 143px;
+  }
+
+  .mainProgram h2.Desktop::after {
+    background-color: rgb(185, 184, 184);
+    margin-top: 1px;
+    width: 140px;
+    font-weight: normal;
+    margin-bottom: 4rem;
+  }
+
+  .speakers {
+    display: grid;
+    height: 724px;
+    width: 724px;
+  }
+
+  /* featuerd speakers */
+
+  .featuredSpeakers .speakers li.third {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .featuredSpeakers .speakers li.fifth {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .featuredSpeakers .speakers li.fourth {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .featuredSpeakers .speakers li.six {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  footer.Partner.hidden {
+    display: flex;
+    background-color: #252626;
+  }
+
+  footer.Partner.hidden .PartnerContainer {
+    flex-wrap: nowrap;
+  }
+
+  footer.Partner.hidden .PartnerContainer img {
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 14%;
+  }
+
+  footer.Partner .finalLogo {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .LogoImageContainer {
+    width: 506px;
+    height: 36vmax;
+  }
+
+  .text-containerAbout-page {
+    width: 30rem;
+  }
+
+  .logoImage {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .PastContainer {
+    flex-direction: row;
+  }
+
+  .PastContainer div {
+    margin-right: 1rem;
+    height: 10rem;
+  }
+
+  .pastImg.second,
+  .pastImg.first {
+    height: 33vmax;
+  }
+
+  .menu.hidden.mobile {
     display: none;
   }
 }

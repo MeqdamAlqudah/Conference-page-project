@@ -1,12 +1,42 @@
 /* ------Chage the location to fix linter-------- */
-.menu ul li {
-  margin-top: 30px;
-}
-
 .featuredSpeakers .speakers li {
   display: flex;
   margin-top: 20px;
   margin-top: 7px;
+}
+
+.program li img {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.menu.mobile ul li {
+  margin-top: 5rem;
+  font-size: 30px;
+}
+
+.menu.mobile ul li:hover,
+.menu.mobile ul li:active {
+  color: #ec5242;
+}
+
+.menu.Desktop ul li:hover,
+.menu.Desktop ul li:active {
+  color: #ec5242;
+}
+
+.featuredSpeakers .speakers li img {
+  width: 40%;
+  height: 60%;
+  margin-right: 20px;
+}
+
+.featuredSpeakers .speakers li img:hover,
+.featuredSpeakers .speakers li img:active {
+  box-shadow: 10px 10px 10px 10px;
+  width: 60%;
+  height: 60%;
+  margin-right: 20px;
 }
 
 /* ----------------------body-------------------- */
@@ -22,7 +52,7 @@ body {
 }
 
 /* hide Desktop stuff */
-.Desktop {
+body .Desktop {
   display: none;
 }
 
@@ -36,6 +66,7 @@ body {
   list-style: none;
   margin-top: 0;
   display: flex;
+  margin-bottom: 0;
 }
 
 /* <<<<---- Sizing the menu */
@@ -47,25 +78,35 @@ body {
   margin-left: -29px;
 }
 
-.menu {
+.menu.mobile {
   background-color: white;
-  width: 80%;
-  height: 50vmax;
-  position: relative;
+  width: 100%;
+  height: 110%;
+  position: absolute;
   top: -1rem;
   display: flex;
   flex-direction: column;
-  left: 1rem;
+  left: 0;
+  align-items: center;
+  justify-content: center;
 }
 
-.menu ul {
+.menu.mobile ul {
   list-style: none;
   font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -12px;
 }
 
-.menu ul li:hover,
-.menu ul li:active {
-  color: #ec5242;
+.menu.Desktop ul {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .buyTicket {
@@ -90,7 +131,7 @@ body {
   flex-direction: column;
   background-image: url("background-img/first-section\ \(1\).png");
   background-position-x: -30rem;
-  background-size: 310% 49%;
+  background-size: 310% 80%;
   background-repeat: no-repeat;
 }
 
@@ -150,7 +191,7 @@ body {
   font-family: "Lato", sans-serif;
   color: #606161;
   text-align: left;
-  margin-left: 5px;
+  margin: 40px;
   line-height: 1.9;
   font-size: 13px;
 }
@@ -164,6 +205,7 @@ body {
   margin-left: 6px;
   margin-bottom: 31vw;
   text-align: center;
+  margin-top: 88px;
 }
 
 .home-page p .location_ {
@@ -215,7 +257,7 @@ h2::after {
   font-size: 15px;
 }
 
-.home-page .mainProgram .program li {
+body .home-page .mainProgram .program li {
   margin: -5px;
   margin-bottom: 27px;
   background-color: rgba(248, 247, 247, 0.233);
@@ -225,9 +267,10 @@ h2::after {
   align-items: center;
 }
 
-.program li img {
-  margin-right: 5px;
-  margin-left: 5px;
+.home-page .mainProgram .program li:hover,
+.home-page .mainProgram .program li:active {
+  box-shadow: 10px 10px 10px 10px;
+  opacity: 1;
 }
 
 .program li .text {
@@ -257,6 +300,12 @@ h2::after {
   align-items: center;
 }
 
+.twitter {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+}
+
 .featuredSpeakers h2 {
   font-family: "Lato", sans-serif;
   color: #272a31;
@@ -268,12 +317,6 @@ h2::after {
   flex-direction: column;
   padding-left: 6px;
   padding-right: 10px;
-}
-
-.featuredSpeakers .speakers img {
-  width: 40%;
-  height: 40%;
-  margin-right: 20px;
 }
 
 .featuredSpeakers .speakers li .texContainer {
@@ -294,6 +337,14 @@ h2::after {
   font-family: "Lato", sans-serif;
   display: flex;
   justify-content: center;
+  width: 90%;
+  margin-left: 2rem;
+}
+
+.more-btn:hover,
+.more-btn:active {
+  color: #272a31;
+  box-shadow: 5px 5px 5px 5px;
 }
 
 .featuredSpeakers .speakers li .texContainer span {
@@ -330,11 +381,6 @@ h2::after {
   margin-left: 3px;
 }
 
-.hide {
-  display: flex;
-  flex-direction: column;
-}
-
 .more-btn span .up {
   width: 14px;
   height: 14px;
@@ -360,14 +406,14 @@ h2::after {
   text-align: center;
   margin: 20px;
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 11px;
+  color: #a6a7aa;
 }
 
 .logoImage {
-  width: 182px;
-  height: 124px;
-  margin-left: 17px;
-  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 .logo h2,
@@ -380,9 +426,9 @@ h2::after {
 }
 
 .LogoImageContainer {
-  width: 90%;
+  width: 15rem;
   margin-left: 16px;
-  height: 33vmax;
+  height: 45vmax;
   border-style: solid;
   border-width: 1px;
   border-color: #ddddddcb;
@@ -397,7 +443,7 @@ h2::after {
   height: 2px;
   background-color: #e2e0e0;
   content: " ";
-  width: 800px;
+  width: 100%;
   position: relative;
   margin-top: 20px;
   right: -4px;
@@ -475,7 +521,7 @@ h2::after {
 }
 
 footer {
-  background-color: #444649;
+  background-color: #252626;
   background-size: cover;
   margin-top: 20px;
 }
@@ -500,11 +546,13 @@ footer.Partner h2::after {
   flex-wrap: wrap;
   width: 80%;
   justify-content: center;
+  margin: auto;
 }
 
 .partImage {
-  width: 4.5rem;
-  height: 4.5rem;
+  width: 50%;
+  height: auto;
+  margin: auto;
 }
 
 .finalLogo {
@@ -512,18 +560,27 @@ footer.Partner h2::after {
   background-size: cover;
   width: 100%;
   display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .finalLogoImage {
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 4rem;
+}
+
+.featuredSpeakers .speakers li .texContainer span:hover,
+.featuredSpeakers .speakers li .texContainer span:active {
+  text-decoration: underline;
 }
 
 .finalLogo p {
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-family: "Lato", sans-serif;
   color: #69696b;
   font-size: 11px;
+  margin-left: 48px;
 }
 
 .text-containerAbout-page {
@@ -575,6 +632,37 @@ footer.Partner h2::after {
 
 /* ------------ >>>> */
 
+.PastContainer .pastImg.first:hover,
+.PastContainer .partImage.first:active {
+  /* prettier-ignore */
+  background-image:
+    url("background-img/images.jpg"),
+    linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.PastContainer .pastImg.second:hover,
+.PastContainer .pastImg.second:active {
+  /* prettier-ignore */
+  background-image:
+    url("background-img/download.jpg"),
+    linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+}
+
+.PastContainer .pastImg h2:hover,
+.PastContainer .pastImg h2:active {
+  font-size: 30px;
+  color: #ec5242;
+  text-shadow: 10px 10px 10px;
+}
+
+.cancel {
+  align-self: flex-end;
+  margin-right: 2rem;
+  margin-top: -4rem;
+  width: 19px;
+  height: 18px;
+}
+
 /* ------------ >>>> */
 
 /* -----------------------hidden------------------ */
@@ -582,6 +670,14 @@ footer.Partner h2::after {
 /* when I add this class to any element it will disappear */
 
 body .hidden {
+  display: none;
+}
+
+.featuredSpeakers .speakers li.hide.hidden {
+  display: none;
+}
+
+.menu.mobile.hidden {
   display: none;
 }
 
