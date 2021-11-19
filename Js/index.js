@@ -78,7 +78,7 @@ const showHome = function () {
     document.querySelector('.container h1').style.fontSize = '80px';
     document.querySelector('.container').style.alignItems = 'left';
     document.querySelector('.container p.display-1').classList.remove('hidden');
-    document.querySelector('.container').style.marginLeft= '10rem';
+    document.querySelector('.container').style.marginLeft = '10rem';
     document.querySelector('.container').style.alignItems = 'flex-start';
     closeMenu();
   }
@@ -115,7 +115,7 @@ const showAbout = function () {
     document.querySelector('.container').style.alignItems = 'center';
     document.querySelector('.container p.display-1').classList.add('hidden');
     document.querySelector('.container').style.marginTop = '40px';
-    document.querySelector('.container').style.marginLeft= '0';
+    document.querySelector('.container').style.marginLeft = '0';
 
     closeMenu();
   }
@@ -139,15 +139,16 @@ document.querySelector('.LogoDesktop').addEventListener('click', showHome);
 // prettier-ignore
 const changeThings = function () {
   document.querySelector('div.text-container').style.alignSelf = 'flex-start';
-document.querySelector('.LogoImageContainer').style.height = '43vmax';
+  document.querySelector('.LogoImageContainer').style.height = '43vmax';
+  document.querySelector('img.finalLogoImage').style.height = '8rem';
+  document.querySelector('.text-containerAbout-page').style.width = '90%';
+
+  if (window.screen.width >= 768 ) {
+    document.querySelector('div.text-container').style.alignSelf = 'flex-start';
+    document.querySelector('.LogoImageContainer').style.height = '43vmax';
     document.querySelector('img.finalLogoImage').style.height = '8rem';
     document.querySelector('.text-containerAbout-page').style.width = '90%';
-  if(window.screen.width >= 768 ) {
-document.querySelector('div.text-container').style.alignSelf = 'flex-start';
-document.querySelector('.LogoImageContainer').style.height = '43vmax';
-    document.querySelector('img.finalLogoImage').style.height = '8rem';
-    document.querySelector('.text-containerAbout-page').style.width = '90%';
-  }
+  };
 }
 // prettier-ignore
-document.querySelector('body').addEventListener('scroll',changeThings);
+document.querySelector('body').addEventListener('scroll', changeThings);
