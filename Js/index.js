@@ -156,3 +156,5 @@ const changeThings = function () {
 };
 // prettier-ignore
 document.querySelector('body').addEventListener('scroll', changeThings);
+
+// Fix it
