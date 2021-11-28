@@ -141,7 +141,7 @@ document.querySelector('.menu .menuDesk li.about').addEventListener('click', sho
 document.querySelector('.menu .menuDesk li.home').addEventListener('click', showHome);
 
 document.querySelector('.LogoDesktop').addEventListener('click', showHome);
-window.addEventListener('resize',() =>{
+window.addEventListener('resize',  () => {
   
   if( document.getElementsByClassName('about-page')[0].classList.contains('hidden')){
     showHome();
