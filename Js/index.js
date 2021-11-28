@@ -65,10 +65,11 @@ const showHome = function () {
   document.getElementsByClassName('date')[0].classList.remove('hidden');
   document.getElementsByClassName('about-page')[0].classList.add('hidden');
   document.getElementsByClassName('Partner')[0].classList.add('hidden');
-  document.querySelector('.container h1').style.fontSize = '40px';
+  document.querySelector('.container h1').style.fontSize = '32px';
   document.querySelector('.text-container').classList.remove('hidden');
   document.querySelector('.text-containerAbout-page').classList.add('hidden');
   document.querySelector('.PartnerContainer').classList.add('hidden');
+  document.querySelector('.container').style.marginLeft = '0';
   if (window.screen.width >= 768) {
     document.querySelector('.PartnerContainer').classList.remove('hidden');
     document.querySelector('.Partner h2').classList.remove('hidden');
@@ -103,6 +104,7 @@ const showAbout = function () {
   document.querySelector('.home-page').style.marginBottom = '56px';
   document.querySelector('.PartnerContainer').classList.remove('hidden');
   document.querySelector('.finalLogo').style.backgroundColor = 'white';
+  document.querySelector('.container p.display-1').classList.remove('hidden');
   if (window.screen.width >= 768) {
     document.querySelector('.Partner h2').classList.add('hidden');
     document.querySelector('.PartnerContainer').classList.add('hidden');
@@ -140,6 +142,14 @@ document.querySelector('.menu .menuDesk li.home').addEventListener('click', show
 // prettier-ignore
 document.querySelector('.LogoDesktop').addEventListener('click', showHome);
 // prettier-ignore
+window.addEventListener('resize',() =>{
+  
+  if( document.getElementsByClassName('about-page')[0].classList.contains('hidden')){
+    showHome();
+  }else{
+    showAbout();
+  }
+});
 const changeThings = function () {
   document.querySelector('div.text-container').style.alignSelf = 'flex-start';
   document.querySelector('.LogoImageContainer').style.height = '43vmax';
