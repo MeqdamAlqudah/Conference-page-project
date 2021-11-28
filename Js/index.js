@@ -130,22 +130,19 @@ const showAbout = function () {
 
 document.querySelector('.menu li.about').addEventListener('click', showAbout);
 
-
 document.querySelector('.menu li.home').addEventListener('click', showHome);
 
 // add Event listener to menu Desktop options
 
 document.querySelector('.menu .menuDesk li.about').addEventListener('click', showAbout);
 
-
 document.querySelector('.menu .menuDesk li.home').addEventListener('click', showHome);
 
 document.querySelector('.LogoDesktop').addEventListener('click', showHome);
-window.addEventListener('resize',  () => {
-  
-  if( document.getElementsByClassName('about-page')[0].classList.contains('hidden')){
+window.addEventListener('resize', () => {
+  if (document.getElementsByClassName('about-page')[0].classList.contains('hidden')) {
     showHome();
-  }else{
+  } else {
     showAbout();
   }
 });
