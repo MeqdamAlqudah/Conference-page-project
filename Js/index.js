@@ -1,9 +1,8 @@
 // more-button activation
 const moreElements = function () {
+const hide = document.querySelectorAll('.hide');
   
-  const hide = document.querySelectorAll('.hide');
-  
-  if (hide[0].classList.contains('hidden')) {
+if (hide[0].classList.contains('hidden')) {
     for (let i = 0; i < hide.length; i += 1) {
       hide[i].classList.remove('hidden');
     }
