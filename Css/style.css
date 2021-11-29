@@ -145,28 +145,36 @@ body .Desktop {
 
 /* prettier-ignore */
 .home-page h1 {
-  color: #ec5242;
+  color: #ec534271;
   font-family: 'Cocogoose', sans-serif;
   font-style: normal;
   font-weight: normal;
-  mask-image: url("background-img/Mask.png");
   margin-top: 1px;
   margin-left: 10px;
   font-size: 32px;
+  background-image: url(background-img/orange.jpg);
+  background-clip: border-box;
+  -webkit-background-clip: text;
 }
 
 .home-page span {
-  color: #ec5242;
+  color: #ec534288;
   font-style: normal;
   font-weight: normal;
   font-family: sans-serif;
+  background-image: url(background-img/orange.jpg);
+  background-clip: border-box;
+  -webkit-background-clip: text;
 }
 
-.home-page p {
-  color: #ec5242;
+.home-page .top {
+  color: #ec53426e;
   margin-bottom: 0;
   margin-left: 10px;
   font-size: 32px;
+  background-image: url(background-img/orange.jpg);
+  background-clip: border-box;
+  -webkit-background-clip: text;
 }
 
 /* ------------ >>>> */
@@ -192,8 +200,10 @@ body .Desktop {
   font-family: "Lato", sans-serif;
   color: #606161;
   text-align: left;
-  margin: 40px;
+  margin: 42px;
+  margin-left: 2vw;
   line-height: 1.9;
+  width: 77vw;
   font-size: 13px;
 }
 
@@ -611,7 +621,7 @@ footer.Partner h2::after {
   margin: 20px;
   font-weight: 600;
   margin-left: 6px;
-  margin-bottom: 31vw;
+  margin-bottom: 7vw;
   line-height: 0.7;
   text-align: center;
 }
