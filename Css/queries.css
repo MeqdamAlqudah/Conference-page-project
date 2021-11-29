@@ -11,10 +11,11 @@
     display: flex;
     flex-direction: row;
     background-color: white;
-    align-items: flex-end;
     width: 200%;
-    height: 100%;
     margin-left: -1rem;
+    box-shadow: 3px 3px 3px hsl(240deg 8% 46%);
+    height: 13vh;
+    align-items: center;
   }
 
   .menuDesk {
@@ -36,6 +37,20 @@
 
   .home-page {
     background-size: 256vmin 1072px;
+  }
+
+  .text-container p {
+    font-size: 17px;
+    margin-left: 1vw;
+  }
+
+  .text-containerAbout-page p {
+    font-size: 17px;
+  }
+
+  .dateAbout {
+    font-size: 14px;
+    background-color: #ffffff8a;
   }
 
   #headerList {
@@ -94,17 +109,17 @@
   .text-container {
     width: 67vmax;
     height: 9vmax;
-    background-color: rgba(243, 243, 243, 0.473);
+    background-color: rgb(243 243 243 / 87%);
   }
 
   .home-page .date {
     text-align: left;
-    font-size: 20px;
+    font-size: 50px;
     margin-top: 88px;
   }
 
   .home-page .date .location_ {
-    font-size: 11px;
+    font-size: 20px;
   }
 
   .program {
