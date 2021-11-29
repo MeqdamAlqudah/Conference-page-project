@@ -44,6 +44,10 @@
     margin-left: 1vw;
   }
 
+  .buyTicket {
+    color: #ec5242;
+  }
+
   .text-containerAbout-page p {
     font-size: 17px;
   }
@@ -80,7 +84,7 @@
 
   .container {
     align-items: flex-start;
-    margin-left: 10rem;
+    margin-left: 7rem;
   }
 
   .container p.display-1 {
@@ -104,6 +108,10 @@
   .container h1 {
     font-size: 80px;
     margin-bottom: -8px;
+  }
+
+  .home-page .top {
+    margin-top: 6rem;
   }
 
   .text-container {
@@ -214,7 +222,7 @@
   }
 
   .LogoImageContainer {
-    width: 506px;
+    width: 29vw;
     height: 36vmax;
   }
 
