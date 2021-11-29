@@ -158,10 +158,21 @@ body .Desktop {
 }
 
 .home-page span {
-  color: #ec534288;
+  color: #ec5342;
   font-style: normal;
   font-weight: normal;
   font-family: sans-serif;
+}
+
+.home-page span:first-child {
+  color: #ec534288;
+  background-image: url(background-img/orange.jpg);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+}
+
+.home-page span:nth-child(3) {
+  color: #ec534288;
   background-image: url(background-img/orange.jpg);
   background-clip: border-box;
   -webkit-background-clip: text;
