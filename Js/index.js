@@ -68,6 +68,7 @@ const showHome = function () {
   document.querySelector('.text-containerAbout-page').classList.add('hidden');
   document.querySelector('.PartnerContainer').classList.add('hidden');
   document.querySelector('.container').style.marginLeft = '0';
+  document.querySelector('.home-page h1').style.color = '#ec534271';
   if (window.screen.width >= 768) {
     document.querySelector('.PartnerContainer').classList.remove('hidden');
     document.querySelector('.Partner h2').classList.remove('hidden');
@@ -80,6 +81,7 @@ const showHome = function () {
     document.querySelector('.container p.display-1').classList.remove('hidden');
     document.querySelector('.container').style.marginLeft = '10rem';
     document.querySelector('.container').style.alignItems = 'flex-start';
+    document.querySelector('.home-page h1').style.color = '#ec534271';
     closeMenu();
   }
   closeMenu();
@@ -103,6 +105,7 @@ const showAbout = function () {
   document.querySelector('.PartnerContainer').classList.remove('hidden');
   document.querySelector('.finalLogo').style.backgroundColor = 'white';
   document.querySelector('.container p.display-1').classList.remove('hidden');
+  document.querySelector('.home-page h1').style.color = '#ec534271';
   if (window.screen.width >= 768) {
     document.querySelector('.Partner h2').classList.add('hidden');
     document.querySelector('.PartnerContainer').classList.add('hidden');
@@ -114,11 +117,12 @@ const showAbout = function () {
     document.querySelector('.finalLogoImage').style.marginBottom = '10px';
     document.querySelector('.LogoImageContainer').style.height = '36vmax';
     document.querySelector('.finalLogoImage').style.height = '8rem';
-    document.querySelector('.container h1').style.fontSize = '60px';
+    document.querySelector('.container h1').style.fontSize = '70px';
     document.querySelector('.container').style.alignItems = 'center';
     document.querySelector('.container p.display-1').classList.add('hidden');
     document.querySelector('.container').style.marginTop = '40px';
     document.querySelector('.container').style.marginLeft = '0';
+    document.querySelector('.home-page h1').style.color = '#ec5242';
 
     closeMenu();
   }
@@ -153,7 +157,7 @@ const changeThings = function () {
   document.querySelector('img.finalLogoImage').style.marginBottom = '3rem';
   if (window.screen.width >= 768) {
     document.querySelector('div.text-container').style.alignSelf = 'flex-start';
-    document.querySelector('.LogoImageContainer').style.height = '43vmax';
+    document.querySelector('.LogoImageContainer').style.height = '32vh';
     document.querySelector('img.finalLogoImage').style.height = '8rem';
     document.querySelector('.text-containerAbout-page').style.width = '90%';
   }
