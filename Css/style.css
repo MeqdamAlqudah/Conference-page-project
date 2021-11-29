@@ -186,8 +186,8 @@ body .Desktop {
   border-style: solid;
   border-color: white;
   background-color: rgba(248, 247, 247, 0.712);
-  width: 299px;
-  height: 122px;
+  width: 95vw;
+  height: 29vh;
   align-self: center;
 }
 
