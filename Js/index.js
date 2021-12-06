@@ -38,8 +38,8 @@ const openMenu = function () {
 
 const closeMenu = function () {
   document.querySelector('.menu.mobile').classList.add('hidden');
-  document.querySelector('body').style.overflowY = 'none';
-  document.querySelector('html').style.overflowY = 'none';
+  document.querySelector('body').style.overflowY = 'initial';
+  document.querySelector('html').style.overflowY = 'initial';
 };
 
 const menuOpenerCloser = function () {
@@ -78,6 +78,8 @@ const showHome = function () {
   document.querySelector('.container').style.marginLeft = '0';
   document.querySelector('.home-page h1').style.color = '#ec534271';
   document.querySelector('.container').style.alignItems = 'none';
+   document.querySelector('body').style.overflowY = 'initial';
+  document.querySelector('html').style.overflowY = 'initial';
   if (window.screen.width >= 768) {
     document.querySelector('.PartnerContainer').classList.remove('hidden');
     document.querySelector('.Partner h2').classList.remove('hidden');
@@ -116,6 +118,8 @@ const showAbout = function () {
   document.querySelector('.container p.display-1').classList.remove('hidden');
   document.querySelector('.home-page h1').style.color = '#ec534271';
   document.querySelector('.container').style.alignItems = 'center';
+   document.querySelector('body').style.overflowY = 'initial';
+  document.querySelector('html').style.overflowY = 'initial';
   if (window.screen.width >= 768) {
     document.querySelector('.Partner h2').classList.add('hidden');
     document.querySelector('.PartnerContainer').classList.add('hidden');
