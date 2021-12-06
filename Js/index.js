@@ -27,6 +27,10 @@ document
 
 const openMenu = function () {
   document.querySelector('.menu.mobile').classList.remove('hidden');
+  document.querySelector('.buyTicket').style.color = 'white';
+  if (window.screen.width >= 768) {
+    document.querySelector('.buyTicket').style.color = '#ec5242';
+  }
 };
 // Close the menu
 
@@ -69,17 +73,18 @@ const showHome = function () {
   document.querySelector('.PartnerContainer').classList.add('hidden');
   document.querySelector('.container').style.marginLeft = '0';
   document.querySelector('.home-page h1').style.color = '#ec534271';
+  document.querySelector('.container').style.alignItems = 'none';
   if (window.screen.width >= 768) {
     document.querySelector('.PartnerContainer').classList.remove('hidden');
     document.querySelector('.Partner h2').classList.remove('hidden');
     document.querySelector('.finalLogo').style.backgroundColor = 'white';
     document.querySelector('.finalLogo').style.justifyContent = 'none';
-    document.querySelector('.LogoImageContainer').style.height = '43vmax';
+    document.querySelector('.LogoImageContainer').style.height = '28vh';
     document.querySelector('img.finalLogoImage').style.height = '8rem';
     document.querySelector('.container h1').style.fontSize = '80px';
     document.querySelector('.container').style.alignItems = 'left';
     document.querySelector('.container p.display-1').classList.remove('hidden');
-    document.querySelector('.container').style.marginLeft = '10rem';
+    document.querySelector('.container').style.marginLeft = '7rem';
     document.querySelector('.container').style.alignItems = 'flex-start';
     document.querySelector('.home-page h1').style.color = '#ec534271';
     closeMenu();
@@ -106,6 +111,7 @@ const showAbout = function () {
   document.querySelector('.finalLogo').style.backgroundColor = 'white';
   document.querySelector('.container p.display-1').classList.remove('hidden');
   document.querySelector('.home-page h1').style.color = '#ec534271';
+  document.querySelector('.container').style.alignItems = 'center';
   if (window.screen.width >= 768) {
     document.querySelector('.Partner h2').classList.add('hidden');
     document.querySelector('.PartnerContainer').classList.add('hidden');
@@ -123,6 +129,8 @@ const showAbout = function () {
     document.querySelector('.container').style.marginTop = '40px';
     document.querySelector('.container').style.marginLeft = '0';
     document.querySelector('.home-page h1').style.color = '#ec5242';
+    document.querySelector('.buyTicket').style.color = '#ec5242';
+    document.querySelector('.container').style.alignItems = 'center';
 
     closeMenu();
   }

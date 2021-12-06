@@ -13,7 +13,7 @@
     background-color: white;
     align-items: center;
     width: 200%;
-    height: 19vh;
+    height: 5rem;
     margin-left: -1rem;
     box-shadow: 3px 3px 3px hsl(240deg 8% 46%);
   }
@@ -35,13 +35,13 @@
     flex: 5;
   }
 
-  .home-page {
-    background-size: 256vmin 1072px;
-  }
-
   .text-container p {
     font-size: 17px;
     margin-left: 1vw;
+  }
+
+  .buyTicket {
+    color: #ec5242;
   }
 
   .text-containerAbout-page p {
@@ -80,7 +80,7 @@
 
   .container {
     align-items: flex-start;
-    margin-left: 10rem;
+    margin-left: 7rem;
   }
 
   .container p.display-1 {
@@ -106,9 +106,12 @@
     margin-bottom: -8px;
   }
 
+  .home-page .top {
+    margin-top: 6rem;
+  }
+
   .text-container {
     width: 79vw;
-    height: 23vh;
     background-color: rgb(243 243 243 / 87%);
   }
 
@@ -215,7 +218,7 @@
   }
 
   .LogoImageContainer {
-    width: 506px;
+    width: 29vw;
     height: 36vmax;
   }
 
@@ -240,7 +243,7 @@
 
   .pastImg.second,
   .pastImg.first {
-    height: 33vmax;
+    height: 21vmax;
   }
 
   .menu.hidden.mobile {
