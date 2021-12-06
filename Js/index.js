@@ -28,6 +28,8 @@ document
 const openMenu = function () {
   document.querySelector('.menu.mobile').classList.remove('hidden');
   document.querySelector('.buyTicket').style.color = 'white';
+  document.querySelector('html').style.overflowY = 'hidden';
+  document.querySelector('body').style.overflowY = 'hidden';
   if (window.screen.width >= 768) {
     document.querySelector('.buyTicket').style.color = '#ec5242';
   }
@@ -36,6 +38,8 @@ const openMenu = function () {
 
 const closeMenu = function () {
   document.querySelector('.menu.mobile').classList.add('hidden');
+  document.querySelector('body').style.overflowY = 'scroll';
+  document.querySelector('html').style.overflowY = 'scroll';
 };
 
 const menuOpenerCloser = function () {
