@@ -38,8 +38,8 @@ const openMenu = function () {
 
 const closeMenu = function () {
   document.querySelector('.menu.mobile').classList.add('hidden');
-  document.querySelector('body').style.overflowY = 'scroll';
-  document.querySelector('html').style.overflowY = 'scroll';
+  document.querySelector('body').style.overflowY = 'none';
+  document.querySelector('html').style.overflowY = 'none';
 };
 
 const menuOpenerCloser = function () {
