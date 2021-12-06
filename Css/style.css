@@ -1,5 +1,6 @@
 /* ------Chage the location to fix linter-------- */
 .featuredSpeakers .speakers li {
+  display: -webkit-box;
   display: flex;
   margin-top: 20px;
   margin-top: 7px;
@@ -34,6 +35,7 @@
 
 .featuredSpeakers .speakers li img:hover,
 .featuredSpeakers .speakers li img:active {
+  -webkit-box-shadow: 10px 10px 10px 10px;
   box-shadow: 10px 10px 10px 10px;
   width: 60%;
   height: 60%;
@@ -66,6 +68,7 @@ body .Desktop {
 #headerList {
   list-style: none;
   margin-top: 0;
+  display: -webkit-box;
   display: flex;
   margin-bottom: 0;
 }
@@ -85,19 +88,34 @@ body .Desktop {
   height: 110%;
   position: absolute;
   top: -1rem;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   left: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-backdrop-filter: blur(2px);
   backdrop-filter: blur(2px);
 }
 
 .menu.mobile ul {
   list-style: none;
   font-family: "Lato", sans-serif;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   position: relative;
   top: -12px;
@@ -106,8 +124,14 @@ body .Desktop {
 .menu.Desktop ul {
   list-style: none;
   font-family: "Lato", sans-serif;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -129,12 +153,18 @@ body .Desktop {
 
 /* <<<<---- Sizing the home-page */
 .home-page {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
-  background-image: url("background-img/first-section\ \(1\).png");
+  background-image: url("background-img/back-img.png");
+  backdrop-filter: blur(10px);
   background-position-x: -30rem;
-  background-size: 310% 80%;
+  background-position-y: 8rem;
   background-repeat: no-repeat;
+  background-clip: border-box;
 }
 
 /* ------------ >>>> */
@@ -150,7 +180,7 @@ body .Desktop {
   color: #ec534271;
   font-family: 'Cocogoose', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   margin-top: 1px;
   margin-left: 10px;
   font-size: 32px;
@@ -176,7 +206,6 @@ body .Desktop {
 .home-page .top {
   color: #ec53426e;
   margin-bottom: 0;
-  margin-left: 10px;
   font-size: 32px;
   background-image: url(background-img/orange.jpg);
   background-clip: border-box;
@@ -194,11 +223,17 @@ body .Desktop {
   background-color: rgba(248, 247, 247, 0.712);
   width: 95vw;
   height: 10rem;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
 }
 
 .container {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -235,8 +270,14 @@ body .Desktop {
 
 .mainProgram {
   background-color: #272a31;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-image: url("background-img/unnamed.png");
 }
@@ -280,12 +321,16 @@ body .home-page .mainProgram .program li {
   background-color: rgba(248, 247, 247, 0.233);
   width: 89%;
   height: 71px;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .home-page .mainProgram .program li:hover,
 .home-page .mainProgram .program li:active {
+  -webkit-box-shadow: 10px 10px 10px 10px;
   box-shadow: 10px 10px 10px 10px;
   opacity: 1;
 }
@@ -312,8 +357,14 @@ body .home-page .mainProgram .program li {
 /* <<<<----Designe the speaker list */
 
 .featuredSpeakers {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -330,15 +381,23 @@ body .home-page .mainProgram .program li {
 
 .speakers {
   list-style: none;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding-left: 6px;
   padding-right: 10px;
 }
 
 .featuredSpeakers .speakers li .texContainer {
+  display: -webkit-box;
   display: flex;
   font-family: "Lato", sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   font-size: 10px;
   margin-top: 12px;
@@ -352,7 +411,10 @@ body .home-page .mainProgram .program li {
   border-color: rgb(202, 200, 200);
   padding: 10px;
   font-family: "Lato", sans-serif;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 90%;
   margin-left: 2rem;
@@ -361,6 +423,7 @@ body .home-page .mainProgram .program li {
 .more-btn:hover,
 .more-btn:active {
   color: #272a31;
+  -webkit-box-shadow: 5px 5px 5px 5px;
   box-shadow: 5px 5px 5px 5px;
 }
 
@@ -413,8 +476,14 @@ body .home-page .mainProgram .program li {
 /* logo-styling */
 
 .logo {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: white;
 }
@@ -450,8 +519,14 @@ body .home-page .mainProgram .program li {
   border-width: 1px;
   border-color: #ddddddcb;
   background-color: white;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -471,8 +546,14 @@ body .home-page .mainProgram .program li {
 
 /* ---------.pastSummit -------- */
 .pastSummit {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: white;
 }
@@ -482,12 +563,20 @@ body .home-page .mainProgram .program li {
   color: #69696b;
   text-align: center;
   margin-left: 20px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-right: 10px;
 }
 
 .pastImg.first {
   /* prettier-ignore */
+  background-image:
+    -webkit-gradient(linear, left top, left bottom, from(#ec53428e), to(#ec534270)),
+    url("background-img/images.jpg");
+  background-image:
+    -o-linear-gradient(#ec53428e, #ec534270),
+    url("background-img/images.jpg");
   background-image:
     linear-gradient(#ec53428e, #ec534270),
     url("background-img/images.jpg");
@@ -496,12 +585,22 @@ body .home-page .mainProgram .program li {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-bottom: 2rem;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .pastImg.second {
   /* prettier-ignore */
+  background-image:
+    -webkit-gradient(linear, left top, left bottom, from(#ec53428e), to(#ec534270)),
+    url("background-img/download.jpg");
+  background-image:
+    -o-linear-gradient(#ec53428e, #ec534270),
+    url("background-img/download.jpg");
   background-image:
     linear-gradient(#ec53428e, #ec534270),
     url("background-img/download.jpg");
@@ -509,13 +608,21 @@ body .home-page .mainProgram .program li {
   height: 45vmax;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .PastContainer {
   width: 90%;
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
@@ -544,8 +651,14 @@ footer {
 }
 
 .Partner {
+  display: -webkit-box;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -559,9 +672,13 @@ footer.Partner h2::after {
 }
 
 .PartnerContainer {
+  display: -webkit-box;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 80%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: auto;
 }
@@ -576,9 +693,14 @@ footer.Partner h2::after {
   background-color: white;
   background-size: cover;
   width: 100%;
+  display: -webkit-box;
   display: flex;
   margin: auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -640,6 +762,7 @@ footer.Partner h2::after {
 }
 
 .dateAbout .locationAbout {
+  -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
   color: #4f4f52;
   font-size: 11px;
@@ -654,12 +777,24 @@ footer.Partner h2::after {
   /* prettier-ignore */
   background-image:
     url("background-img/images.jpg"),
+    -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)));
+  background-image:
+    url("background-img/images.jpg"),
+    -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  background-image:
+    url("background-img/images.jpg"),
     linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
 }
 
 .PastContainer .pastImg.second:hover,
 .PastContainer .pastImg.second:active {
   /* prettier-ignore */
+  background-image:
+    url("background-img/download.jpg"),
+    -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0)));
+  background-image:
+    url("background-img/download.jpg"),
+    -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
   background-image:
     url("background-img/download.jpg"),
     linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
@@ -673,6 +808,7 @@ footer.Partner h2::after {
 }
 
 .cancel {
+  -ms-flex-item-align: end;
   align-self: flex-end;
   margin-right: 2rem;
   margin-top: -4rem;

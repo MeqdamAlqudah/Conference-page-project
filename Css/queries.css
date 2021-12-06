@@ -13,7 +13,7 @@
     background-color: white;
     align-items: center;
     width: 200%;
-    height: 19vh;
+    height: 5rem;
     margin-left: -1rem;
     box-shadow: 3px 3px 3px hsl(240deg 8% 46%);
   }
@@ -33,10 +33,6 @@
     margin-right: 12rem;
     margin-top: 0;
     flex: 5;
-  }
-
-  .home-page {
-    background-size: 256vmin 1072px;
   }
 
   .text-container p {
@@ -247,7 +243,7 @@
 
   .pastImg.second,
   .pastImg.first {
-    height: 33vmax;
+    height: 21vmax;
   }
 
   .menu.hidden.mobile {
