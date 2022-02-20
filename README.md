@@ -9,10 +9,10 @@
 ![screenshot](img/Readme-file/Capture7.PNG)
 
 
-![Desktop Version](img/Readme-file/Capture8.PNG)
-![Desktop Version](img/Readme-file/Capture9.PNG)
-![Desktop Version](img/Readme-file/Capture10.PNG)
-![Desktop Version](img/Readme-file/Capture11.PNG)
+![Desktop Version](img/Readme-file/Capture4.PNG)
+![Desktop Version](img/Readme-file/Capture5.PNG)
+![Desktop Version](img/Readme-file/Capture6.PNG)
+
 
 # Project contains several sections:
 
