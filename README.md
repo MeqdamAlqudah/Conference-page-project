@@ -6,7 +6,6 @@
 ![Mobile Version](img/Readme-file/Capture.PNG)
 ![Mobile Version](img/Readme-file/Capture2.PNG)
 ![Mobile Version](img/Readme-file/Capture3.PNG)
-![screenshot](img/Readme-file/Capture6.PNG)
 ![screenshot](img/Readme-file/Capture7.PNG)
 
 
