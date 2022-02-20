@@ -2,8 +2,7 @@
 > This is the work presented as a final project for the CSS/HTML module.
 > The project is supposed to be personalized and the topic chosen is about fictional Yoga Retreat. Photos and Dates are not real. 
 > The project Design followed Cindy Shin's [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
-# PR
-speach in the summit
+
 ![Mobile Version](img/Readme-file/Capture.PNG)
 ![Mobile Version](img/Readme-file/Capture2.PNG)
 ![Mobile Version](img/Readme-file/Capture3.PNG)
